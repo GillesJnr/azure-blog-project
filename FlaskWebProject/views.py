@@ -131,7 +131,7 @@ def _build_msal_app(cache=None, authority=None):
     return msal.ConfidentialClientApplication(
         Config.CLIENT_ID, authority=authority or Config.AUTHORITY, 
         client_credential=Config.CLIENT_SECRET, token_cache=cache)
-    )
+    
 
 def _build_auth_url(authority=None, scopes=None, state=None):
     # TODO: Return the full Auth Request URL with appropriate Redirect URI
