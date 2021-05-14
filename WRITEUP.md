@@ -25,29 +25,16 @@ Generally the workflow on Azure App Service is relatively easier and simpler whe
 
 
 
-
-
-
-
 - *Choose the appropriate solution (VM or App Service) for deploying the app*
 
 # Answer
 The appropriate solution for deploying the blog application will be the App Service.
 
 
-
-
-
-
-
 - *Justify your choice*
+
 # Answer
 The App Service is a Platform as a Service which means only the app will be our concern and we won't have to handle problems that arises from infrastructure. Our app is a small application which is barely going to use 4 vCPU's and 14GB of memory hence the best service that fits our project is the App Service.
-
-
-
-
-
 
 
 
